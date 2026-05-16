@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Hello There!👋 Welcome to my first webpage!</h1>
+        <h1>I am Shaivyaa Rastogi</h1>
+        <p class="intro">
+            I am a beginner web development learner who loves creativity,
+            technology, and learning new things.
+        </p>
+        <div class="card">
+            <h2>🌻Hobbies & Interests</h2>
+            <ul>
+                <li>Listening to music</li>
+                <li>Learning coding</li>
+                <li>Reading and Writing</li>
+                <li>Watching tech content</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>💻 Skills I Have</h2>
+            <ul>
+                <li>Basic HTML</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>Problem Solving</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>🚀 Why I Joined This Club</h2>
+            <p>
+                I joined this club to learn new skills, meet creative people,
+                improve myself, and work on meaningful projects.
+            </p>
+        </div>
+        <div class="card">
+            <h2>✨ My Dream Goal</h2>
+            <p>
+                My dream is to become highly skilled in technology and build
+                impactful projects to solve some real-world problems mainly related to healthcare and biology.
+            </p>
+        </div>
+        <div class="card">
+            <h2>🎵 Current Favourite Song</h2>
+            <p>
+                Bairan-Banjaare
+            </p>
+            <button id="musicBtn" onclick="playSong()">
+                ▶ Play Song
+            </button>
+            <br><br>
+
+            <input type="range"
+                id="progress"
+                value="0"
+                min="0"
+                max="100">
+
+            <p id="time">
+                0:00 / 0:00
+            </p>
+        </div>
+        <audio id="mySong">
+            <source src="song.m4a" type="audio/mpeg">
+        </audio>
+        <div class="card">
+        <h2>✨ Favourite Quote</h2>
+            <p>
+                "If nothing goes right, go left💅"
+            </p>
+        </div>
+            <button onclick="toggleMode()">
+                Toggle Dark/Light Mode
+            </button>
+        </div>
+        <div class="card">
+            <h2>🔗 Connect With Me</h2>
+            <a href="https://www.linkedin.com/in/shaivyaa-rastogi-187883192/" target="_blank">
+            Visit My LinkedIn Profile
+            </a>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
